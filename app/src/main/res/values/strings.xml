@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">StransThe</string>
+    <string name="app_label">StransThe</string>
+    <string name="search_hint">Por exemplo promorar</string>
+
+    <style name="sem_action_bar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="titulo">
+        <item name="android:layout_marginTop">180dp</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="texto_comum">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="texto_pergunta">
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_marginTop">100sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">160dp</item>
+
+    </style>
+
+    <style name="lupa_pesquisa">
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="btn_localizar">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+
+    <style name="btn_resposta">
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <string name="title_activity_maps">Map</string>
+</resources>
